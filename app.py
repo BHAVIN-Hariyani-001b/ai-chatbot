@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
 
 def chatbot_response(user_text):
-    client = genai.Client(api_key="AIzaSyDTNBYoHPakg9wF0nnx1dlFJpNXPCPx3o8")
+    client = genai.Client(api_key="Gemini_Key")
     try:    
         response = client.models.generate_content(
             model="gemini-2.5-flash", 
