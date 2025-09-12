@@ -54,7 +54,7 @@ chatbot/
 
     - Get your API key from [Google AI Studio](https://aistudio.google.com/)
     ```
-    api_key="you_key_enter"
+    api_key="enter_your_key"
     ```
 5. Run the Flask app:
     ```
