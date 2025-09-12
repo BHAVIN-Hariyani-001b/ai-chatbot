@@ -51,7 +51,7 @@ chatbot/
     ```
 
 4. Set up your Gemini API Key:
-    - Get your API key from (Google AI Studio)[https://aistudio.google.com/]
+    - Get your API key from [Google AI Studio](https://aistudio.google.com/)
     ```
     api_key="you_key_enter"
     ```
