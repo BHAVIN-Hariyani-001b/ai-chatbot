@@ -8,6 +8,7 @@ sendButton.addEventListener("click", sendMessage);
 userInput.addEventListener("keydown",(event)=>{
   if(event.key === "Enter"){
     sendMessage();
+    sendButton.disabled = true;
   }
 });
 
@@ -44,4 +45,5 @@ async function sendMessage() {
 
   chatBox.innerHTML += `<div class="bot">${data.reply}</div>`;
   chatBox.scrollTop = chatBox.scrollHeight;
+  sendButton.disabled = false;
 }
