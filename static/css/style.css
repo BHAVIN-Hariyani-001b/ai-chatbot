@@ -248,6 +248,9 @@ body {
         width: 15rem;
         max-width: 15rem;
     }
+    #chat-box{
+        margin-bottom: 4rem;
+    }
 }
 
 @media (max-width:361px) {
