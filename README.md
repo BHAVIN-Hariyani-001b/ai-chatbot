@@ -16,7 +16,7 @@ The web interface is created with **HTML, CSS, and JavaScript**, and Flask handl
 
 ## 🛠 Project Structure
 ```
-chatbot/
+ai-chatbot/
 │── app.py # Flask backend
 │── templates/
 │ └── index.html # Frontend UI
