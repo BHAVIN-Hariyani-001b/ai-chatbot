@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ body {
     background: #212121;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -79,6 +82,14 @@ body {
     .main-side-button {
         display: flex;
     }
+}
+
+.welcome{
+    position: absolute;
+    font-size: 3rem;
+    color: #FFF;
+    top: -7rem;
+    font-family: "Oswald", sans-serif;
 }
 
 .chat-container {
@@ -158,8 +169,6 @@ body {
     border-radius: 10rem;
     /* width: 50rem; */
 }
-
-
 
 @media (max-width:700px) {
     .chat-container {
@@ -248,7 +257,8 @@ body {
         width: 15rem;
         max-width: 15rem;
     }
-    #chat-box{
+
+    #chat-box {
         margin-bottom: 4rem;
     }
 }
@@ -263,5 +273,71 @@ body {
 
     #user-input {
         width: 14rem;
+    }
+}
+
+.bot {
+    /* background: #2d2d2d;
+    color: #f1f1f1;
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin: 10px 0;
+    max-width: 85%;
+    line-height: 1.6;
+    font-size: 15px; */
+    scroll-behavior: smooth;
+    animation: ease-in 0.2s;
+}
+
+.bot h2 {
+    font-size: 18px;
+    margin: 14px 0 6px;
+    color: #00c3ff;
+}
+
+.bot strong {
+    color: #fff;
+}
+
+.animation {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.animation .sub {
+    width: 10px;
+    height: 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+    animation: jump 0.6s infinite;
+}
+
+/* Delay each dot for a nice bouncing effect */
+.animation .sub:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animation .sub:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.animation .sub:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes jump {
+
+    0%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
     }
 }
