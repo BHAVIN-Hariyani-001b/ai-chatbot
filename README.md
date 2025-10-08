@@ -62,7 +62,7 @@ ai-chatbot/
     ```
 5. Run the Flask app:
     ```
-    python app.py
+    python run.py
     ```
 6. Open your browser at:
     ```
