@@ -31,7 +31,7 @@ ai-chatbot/
 ├── venv                     # virtual environment
 ├── README.md
 └── requirements.txt
-
+```
 
 
 ---
