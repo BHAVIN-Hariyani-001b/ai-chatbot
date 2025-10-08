@@ -26,7 +26,7 @@ body {
     height: 100%;
     color: #fff;
     background-color: #181818;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
@@ -39,6 +39,38 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.frist-section{
+    display: flex;
+    align-items: left;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.new-chat{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    /* margin: 5px; */
+    text-decoration: none;
+    color: #FFF;
+    gap: 10px;
+    padding: .8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: #212121;
+    }
+}
+
+.icon-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 .side-button {
     border: none;
